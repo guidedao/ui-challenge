@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="px-16">
-        <Header title="Hello Sandbox" />
+        <Header title="Sandbox" />
         <PageTitle />
         <Card />
         <Footer />

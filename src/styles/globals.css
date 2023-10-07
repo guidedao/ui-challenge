@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: red;
-  }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-body {
+.light {
+  --base-00: #ffffff;
+  --base-50: rgba(48, 42, 42, 0.05);
+  --base-150: rgba(48, 42, 42, 0.15);
+  --base-350: rgba(48, 42, 42, 0.35);
+  --base-1000: #302a2a;
+}
+
+.dark {
+  --base-00: #302a2a;
+  --base-50: rgba(255, 255, 255, 0.05);
+  --base-150: rgba(255, 255, 255, 0.15);
+  --base-350: rgba(255, 255, 255, 0.35);
+  --base-1000: #ffffff;
 }
